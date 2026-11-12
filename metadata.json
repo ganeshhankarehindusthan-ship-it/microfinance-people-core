@@ -1,0 +1,6 @@
+{
+  "name": "Microfinance People Core",
+  "description": "Enterprise People Operations, Biometric Attendance, Statutory Compliance, and Payroll Audit system for microfinance NBFCs and field credit officers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
