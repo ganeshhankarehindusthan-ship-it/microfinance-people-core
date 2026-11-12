@@ -150,7 +150,7 @@ export const OnboardingModal: React.FC<OnboardingModalProps> = ({
           <div className="flex items-center gap-3.5">
             <div className="p-1.5 rounded-xl bg-white border border-[#E2E8F0] shadow-sm flex items-center justify-center">
               <img 
-                src="/hmpl_logo.png" 
+                src={`${import.meta.env.BASE_URL}hmpl_logo.png`}
                 alt="Hindusthan Microfinance" 
                 className="h-9 w-auto object-contain" 
               />

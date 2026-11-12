@@ -55,7 +55,7 @@ export const PayslipModal: React.FC<PayslipModalProps> = ({
           <div className="text-center pb-4 border-b-2 border-[#0E5E4E] space-y-1">
             <div className="flex flex-col items-center justify-center gap-1">
               <img 
-                src="/hmpl_logo.png" 
+                src={`${import.meta.env.BASE_URL}hmpl_logo.png`}
                 alt="Hindusthan Microfinance" 
                 className="h-12 w-auto object-contain"
               />

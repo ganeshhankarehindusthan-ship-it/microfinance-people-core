@@ -67,7 +67,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="flex items-center gap-3.5">
           <div className="p-1.5 rounded-xl bg-white border border-[#E2E8F0] shadow-sm flex items-center justify-center hover:shadow-md transition">
             <img 
-              src="/hmpl_logo.png" 
+              src={`${import.meta.env.BASE_URL}hmpl_logo.png`}
               alt="Hindusthan Microfinance Logo" 
               className="h-10 sm:h-11 w-auto max-w-[140px] sm:max-w-[160px] object-contain"
             />
